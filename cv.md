@@ -6,16 +6,16 @@
 * **E-mail:** ilya0960@gmail.com
 * **GitHub:** Akela89
 **********
- ### About Me
+### About Me
 I am hardworking and work well in a team. I'm a fast learner and I'm not going to stop there. My interest is HTML, CSS, JS, ANGULAR.
 **********
- ### Skills
+### Skills
 * **HTML**
 * **CSS**
 * **JavaScript (Basic)**
 * **Git**
- **********
- ### Code Example
+**********
+### Code Example
 ```
 <html>
  <head>
@@ -27,11 +27,11 @@ I am hardworking and work well in a team. I'm a fast learner and I'm not going t
  </body> 
 </html>
 ```
- **********
- ### Experience
- * **Beginner level HTML, CSS, JS.**
- **********
- ### Education
+**********
+### Experience
+* **Beginner level HTML, CSS, JS.**
+**********
+### Education
 * **Moscow University for the Humanities - Enterprise Economics**
   + Academy under the President - Economy of the Republic of Belarus, Marketing policy of the enterprise.
 **********
