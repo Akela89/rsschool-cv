@@ -23,13 +23,17 @@ color: #4d2323;
   }
 }
 
+
+/*css для header*/
+
+
 .header{
 background: #0F0F0F;
 border: solid 1px rgb(0, 0, 0);
 }
 
 .main{
-border: solid 1px red;
+border: solid 1px rgb(41, 31, 5);
 background-color:#0F0F0F;
 }
 .footer{
@@ -106,7 +110,11 @@ transition: color 0.5s;
 color: #4d2323;
 }
 
-.main-container {
+
+/*css для main*/
+
+
+.container {
 display: flex;
 flex-wrap: wrap;
 }
@@ -114,22 +122,34 @@ flex-wrap: wrap;
 .section {
 width: 50%;
 color: white;
-
 }
 
 .section-title{
-font-size: 25px;
+font-size: 20px;
 font-weight: 400;
 text-transform: uppercase;
 letter-spacing: 5px;
 color: #aec7b2;
-border: solid red;
+border:10px 40px 10px 40px solid #0F0F0F;
 }
 
 .text{
-  border: red solid;
+  color: white;
+  font-size: 18;
+  
+}
+.colorLink{
+color: rgb(255, 255, 255);
+}
+.colorLink:visited {
+color: #ffffff;
+}
+.colorLink:active {
+color: #ffffff;
 }
 
+
+/*css для footer*/
 
 
 
