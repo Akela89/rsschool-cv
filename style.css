@@ -1,54 +1,137 @@
 * {
-    box-sizing: border-box;
+box-sizing: border-box;
 }
 
 .html {
-    scroll-behavior: smooth; 
+scroll-behavior: smooth; 
   }
 
 .body{
-    font-family: 'Roboto', sans-serif;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
+font-family: 'Roboto', sans-serif;
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+font-size: 18px;
+font-weight: 400;
+line-height: 1.5;
+color: #4d2323;
+}
+
+@media (max-width: 768px) {
+.section {
+  width: 100%;
+  }
 }
 
 .header{
-    border: solid 1px red;
-
+background: #0F0F0F;
+border: solid 1px rgb(0, 0, 0);
 }
-.main{
-    border: solid 1px red;
 
+.main{
+border: solid 1px red;
+background-color:#0F0F0F;
 }
 .footer{
-    border: solid 1px red;
-
+border: solid 1px red;
 }
 .container{
-    max-width: 1440px;
-    margin: 0 auto;
+max-width: 1440px;
+margin: 0 auto; 
 }
 
 .nav-list{
-    display: flex;
-    justify-content: flex-end; 
-    align-items: center;
-    list-style: none;
+display: flex;
+justify-content: flex-end; 
+align-items: center;
+list-style: none;
 }
 
 .nav-link{
-    transition: .3s;
-    padding: 0 20px;
-    line-height: 50px;
-    text-decoration: none;
-      
+transition: .3s;
+padding: 0 30px;
+line-height: 50px;
+text-decoration: none;
+color:#ebebeb;
+text-decoration: none;
+color: #e2e2e2;
+transition: color 0.5s;
+text-transform: uppercase;
+font-size: 25px;
 }
+
+.nav-link:hover{
+color: #1894b9;
+}        
+
+
+.foto{
+background-image: url(/assets/img/avo.svg);
+background-position: 0 0;
+background-repeat: no-repeat;
+background-size: cover;
+height: 810px;
+}
+
+.witeCoub{
+color:  white;
+box-sizing: border-box;
+width: 320px;
+height: 320px;
+border: 4px solid #FFFFFF;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+margin: auto;
+}
+
+.name{
+text-align: center;
+font-size: 20px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 5px;
+color: white;
+}
+
 .section-item a {
-    color: #829985;
-    text-decoration: none;  
-    transition: color 0.5s;
-  }
-  .section-item a:hover {
-    color: #4d2323;
-  }
+color: #829985;
+text-decoration: none;  
+transition: color 0.5s;
+}
+
+.section-item a:hover {
+color: #4d2323;
+}
+
+.main-container {
+display: flex;
+flex-wrap: wrap;
+}
+  
+.section {
+width: 50%;
+color: white;
+
+}
+
+.section-title{
+font-size: 25px;
+font-weight: 400;
+text-transform: uppercase;
+letter-spacing: 5px;
+color: #aec7b2;
+border: solid red;
+}
+
+.text{
+  border: red solid;
+}
+
+
+
+
+
+  
