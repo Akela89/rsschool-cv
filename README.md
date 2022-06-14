@@ -1,3 +1,3 @@
 # rsschool-cv
 
-#[](https://Akela89.github.io/rsschool-cv/cv) #[](https://Akela89.github.io/rsschool-cv/)
+#[CV1](https://Akela89.github.io/rsschool-cv/cv) #[CV2](https://Akela89.github.io/rsschool-cv/)
