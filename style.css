@@ -1,93 +1,76 @@
 * {
 box-sizing: border-box;
 }
-
 .html {
-scroll-behavior: smooth; 
+  scroll-behavior: smooth; 
   }
-
 .body{
-font-family: 'Roboto', sans-serif;
-display: flex;
-flex-direction: column;
-justify-content: space-between;
-font-size: 18px;
-font-weight: 400;
-line-height: 1.5;
-color: #4d2323;
+  font-family: 'Roboto', sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #4d2323;
 }
-
 @media (max-width: 768px) {
 .section {
   width: 100%;
   }
 }
-
 h1 h2 h3 h4 h5 h6 {
   margin: 0;
 }
-
 p{
   margin: 0 0 10px;
 }
 
-
 /* header*/
-
 
 .header{
 background: #222222;
 width: 100%;
 height: 140px;
 }
-
-
 .container{
-width: 100%;
-max-width: 1440px;
-margin: 0 auto;
+  width: 100%;
+  max-width: 1440px;
+  margin: 0 auto;
 }
-
 .headerIner{
   display: flex;
   justify-content: space-between;
   padding: 30px 0;
 }
-
 .nav-list{
-display: flex;
-justify-content: flex-end; 
-align-items: center;
-list-style: none;
+  display: flex;
+  justify-content: flex-end; 
+  align-items: center;
+  list-style: none;
 }
-
 .nav-link{
-transition: .3s;
-padding: 0 30px;
-line-height: 50px;
-text-decoration: none;
-color:#ebebeb;
-text-decoration: none;
-color: #e2e2e2;
-transition: color 0.5s;
-text-transform: uppercase;
-font-size: 25px;
+  transition: .3s;
+  padding: 0 30px;
+  line-height: 50px;
+  text-decoration: none;
+  color:#ebebeb;
+  text-decoration: none;
+  color: #e2e2e2;
+  transition: color 0.5s;
+  text-transform: uppercase;
+  font-size: 25px;
 }
-
 .nav-link:hover{
-color: #1894b9;
+  color: #1894b9;
 }        
 
-
-
 /* main*/
-
 
 .main{
   border: solid 1px rgb(68, 49, 2);
   background-color:#0F0F0F;
   }
-
 .intro{
   display: flex;
   flex-direction: column;
@@ -104,7 +87,7 @@ color: #1894b9;
   margin: 0 auto;
   border: solid rgb(155, 148, 148) ;
 }
-  .intro_title{
+.intro_title{
   font-family: 'Roboto', sans-serif;
   font-size: 65px;
   color: rgb(218, 218, 218);
@@ -115,30 +98,28 @@ color: #1894b9;
   padding: 6px;
   }
 
-
  /*feature*/
 
- .features{
-   display: flex;
-   flex-wrap: wrap;
-   margin: 60px 0;
-
+.features{
+  display: flex;
+  flex-wrap: wrap;
+  margin: 60px 0;
  }
- .features_item{
-   width: 33.33333%;
-   text-align: center;
-   padding: 0 30px;
+.features_item{
+  width: 33.33333%;
+  text-align: center;
+  padding: 0 30px;
  }
  .features_title{
-font-family: 'Roboto', sans-serif;
-font-size: 25px;
-color: rgb(189, 182, 182);
-font-weight: bold;
-text-transform: uppercase;
-letter-spacing: 3px;
-margin-bottom: 15px;
-padding: 10px;
-background-color: #222222;
+  font-family: 'Roboto', sans-serif;
+  font-size: 25px;
+  color: rgb(189, 182, 182);
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+  margin-bottom: 15px;
+  padding: 10px;
+  background-color: #222222;
 }
 .features_text{
   font-family: 'Roboto', sans-serif;
@@ -147,7 +128,6 @@ background-color: #222222;
   text-transform: uppercase;
   letter-spacing: 3px;
   line-height: 1.5;
-  
 }
 .features_list{
   font-family: 'Roboto', sans-serif;
@@ -160,33 +140,28 @@ background-color: #222222;
 .code{
   text-align: left;
 }
-
 .link_contact{
-transition: .3s;
-color: #e2e2e2;
-transition: color 0.5s;
-text-transform: uppercase;
-font-size: 20px;
-font-weight: bold;
+  transition: .3s;
+  color: #e2e2e2;
+  transition: color 0.5s;
+  text-transform: uppercase;
+  font-size: 20px;
+  font-weight: bold;
 }
-
 .link_contact:hover{
   color: #1894b9;
-  }
-
-  .myFoto{
-    width: 235px;
-    height: 308px;
-  }
+}
+.myFoto{
+  width: 235px;
+  height: 308px;
+}
 
 /*footer*/
-
 
 .footer{
   padding: 30px 0;
   background-color: #222222;
 }
-
 .footer_iner{
   display: flex;
   flex-wrap: wrap;
@@ -195,7 +170,6 @@ font-weight: bold;
   width: 33.33333%;
   text-align: center;
 }
-
 .linkRsscool{
   width: 220px;
   height: 115px;
@@ -204,14 +178,14 @@ font-weight: bold;
   width: 120px;
   height: 115px;
 }
- .year_text{
+.year_text{
   font-family: 'Roboto', sans-serif;
   font-size: 20px;
   color: white;
   text-transform: uppercase;
   text-align: center;
   padding-top: 50px;
- }
+}
 
 
 
